@@ -1,0 +1,87 @@
+---
+menu: 
+- id: Home
+  url: /
+- id: About Us
+  url: /content/about.html
+- id: The Principals
+  url: /talk/principals.html
+- id: Projects
+  url: /content/projects.html
+- id: Links
+  url: /content/links.html
+- id: Contact
+  url: /content/contact.html
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<link rel="shortcut icon" href="images/content/favicon.ico" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="title" content="" />
+<meta name="description" content="" />
+<title>{{ page.title }} | Digital Cloud Group</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<link href="styles/inner.css" rel="stylesheet" type="text/css" />
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="container">
+		<div id="top">
+			<div id="logo">
+				<h1><a href="index.html"><img src="img/dcg.gif" width="940" height="222" alt="Digital Cloud Group Logo"></a></h1>
+				
+			</div><!-- end #logo -->
+           
+		</div><!-- end #top -->
+        <div id="topnav"class="navlinks">
+        	     
+	            <ul class="sf-menu">
+					{%for element in page.menu %}
+					{% if page.id == element.id %}<li class="active"><a href="{{ element.url }}">{{ element.id }}</a></li>
+					{% else %}<li><a href="{{ element.url }}">{{ element.id }}</a></li>
+					{% endif %}{% endfor %}
+			  	</ul>
+		  	
+		</div><!-- end #topnav -->
+        
+		<div id="main-content">
+            
+                {{ content }}               
+                        
+            
+            <div class="clear"></div><!-- clear float left -->
+		</div><!-- end #main-content -->
+
+        <div id="frame-footer">
+		<div id="footer">
+			<div id="copyright">
+				Copyright &copy;2011 Digital Cloud Group. All rights reserved.<br />
+				Images by xxx, yyy and zzz
+			</div><!-- end #copyright -->
+            <ul class="social">
+            	<li id="social1"><a href="#">Twitter</a></li>
+                <li id="social2"><a href="#">Youtube</a></li>
+            	<li id="social3"><a href="#">Facebook</a></li>
+                <li id="social4"><a href="#">Flickr</a></li>
+            </ul>
+		</div><!-- end #footer -->
+        </div><!-- end #frame-footer -->
+ 		<div class="clear"></div><!-- end clear float -->
+	</div><!-- end #container -->	
+</div><!-- end #wrapper -->		
+</body>
+</html>

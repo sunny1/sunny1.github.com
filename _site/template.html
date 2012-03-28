@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<link rel="shortcut icon" href="images/content/favicon.ico" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="title" content="" />
+<meta name="description" content="" />
+<title>Digital Cloud Group</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<link href="styles/inner.css" rel="stylesheet" type="text/css" />
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Yanone_Kaffeesatz_Regular_400-Yanone_Kaffeesatz_Bold_700.font.js"></script>
+<script type="text/javascript" src="js/Brush_Script_Std_italic_500.font.js"></script>
+<script type="text/javascript">
+	 Cufon.replace ('h1, h2, h3, h4, h5, .title, h6:not(.clean)', {fontFamily: 'Yanone Kaffeesatz Regular'});
+	 Cufon.replace('#logo h1, h6:not(.clean)', {fontFamily: 'Brush Script Std'});
+</script>
+
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script> 
+<script type="text/javascript">
+jQuery(window).load(function() {
+	 //Menu
+	jQuery("ul.sf-menu").supersubs({ 
+	minWidth		: 12,		// requires em unit.
+	maxWidth		: 27,		// requires em unit.
+	extraWidth		: 1	// extra width can ensure lines don't sometimes turn over due to slight browser differences in how they round-off values
+						   // due to slight rounding differences and font-family 
+	}).superfish();  // call supersubs first, then superfish, so that subs are 
+					 // not display:none when measuring. Call before initialising 
+					 // containing tabs for same reason. 
+});
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+
+<!--Demo Switcher-->
+<link id="skinscss" href="styles/skins/light.css" rel="stylesheet" type="text/css" />
+<link href="styles/colorpicker.css" rel="stylesheet" type="text/css" />
+<link href="styles/style-switcher.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/colorpicker.js"></script>
+<script type="text/javascript" src="js/switcher.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="container">
+		<div id="top">
+			<div id="logo">
+				<h1><a href="index.html"><img src="img/dcg.gif" width="940" height="222" alt="Digital Cloud Group Logo"></a></h1>
+				
+			</div><!-- end #logo -->
+           
+		</div><!-- end #top -->
+
+        <div id="topnav" class="navlinks">
+           
+            <ul class="sf-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">The Company</a></li>
+                <li><a href="services.html">The Principals</a></li>
+                <li><a href="portfolio.html">Projects</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        
+        </div><!-- end #topnav -->
+
+		<div id="main-content">
+            <div id="content">
+                <h2>Contact Details</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium nunc eget mi pellentesque vel adipiscing orci tempus. In dapibus porta feugiat.  Vestibulum dignissim lorem tortor. Donec eleifend pharetra velit, ac euismod nunc porta ac.  Morbi sit amet purus nisl, id elementum est. </p>
+                <hr class="sparator"/>
+                    <div id="contactform">
+                      <form id="contact" action="">
+                        <fieldset>
+                            <label for="name" id="name_label">Name</label>
+                            <input type="text" name="name" id="name" size="50" value="" class="text-input" />
+                            <label for="email" id="email_label">Email</label>
+                            <input type="text" name="email" id="email" size="50" value="" class="text-input" />
+                            <label for="subject" id="subject_label">Subject</label>
+                            <input type="text" name="subject" id="subject"  value="" class="text-input" size="50" />
+                            <label for="msg" id="msg_label">Message</label>
+                            <textarea cols="10" rows="10" name="msg" id="msg" class="text-input"></textarea><br />
+                            <input type="submit" name="submit" class="button" id="submit_btn" value="Send Message &rarr;"/><br />
+							<span class="error" id="name_error">Please enter name !</span>
+							<span class="error" id="email_error">Please enter email address !</span>
+							<span class="error" id="email_error2">Please enter valid email address !</span>
+							<span class="error" id="msg_error">Please enter message !</span>
+							</fieldset>
+                      </form>
+                    </div><!-- end #contactform -->
+               
+            </div><!-- end #content -->
+            
+            <div id="sidebar">
+                <ul>
+                    <li class="widget-container">
+                        <h2>Our Location</h2>
+						<div class="text">
+<iframe width="270" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Jalan+Kemanggisan+Utama,+Jakarta,+Indonesia&amp;sll=37.0625,-95.677068&amp;sspn=46.092115,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Jalan+Kemanggisan+Utama,+Jakarta+Barat,+Jakarta,+Indonesia&amp;ll=-6.189793,106.7908&amp;spn=0.016639,0.034246&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Jalan+Kemanggisan+Utama,+Jakarta,+Indonesia&amp;sll=37.0625,-95.677068&amp;sspn=46.092115,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Jalan+Kemanggisan+Utama,+Jakarta+Barat,+Jakarta,+Indonesia&amp;ll=-6.189793,106.7908&amp;spn=0.016639,0.034246&amp;z=14&amp;iwloc=A" style="text-align:left; color:#555">View Larger Map</a></small>
+
+                        </div>
+                    </li>
+                    <li class="widget-container">
+                        <h2>Our Address</h2>
+					  	<div class="text">
+                        Grand Apple Green Building no. 17<br />
+                        City name, Country<br /><br />
+                        
+                        Phone: +62 800 500 1234<br />
+                        Fax: +62 800 500 1222<br />
+                        Email: <a href="mailto:testmail@templatesquare.com">testmail@templatesquare.com</a>                        
+                     	</div>
+                    </li>
+                </ul>
+            </div><!-- #sidebar -->
+            <div class="clear"></div><!-- clear float left -->
+		</div><!-- end #main-content -->
+
+        <div id="frame-footer">
+		<div id="footer">
+			<div id="copyright">
+				Copyright &copy;2011 Digital Cloud Group. All rights reserved.
+			</div><!-- end #copyright -->
+            <ul class="social">
+            	<li id="social1"><a href="#">Twitter</a></li>
+                <li id="social2"><a href="#">Youtube</a></li>
+            	<li id="social3"><a href="#">Facebook</a></li>
+                <li id="social4"><a href="#">Flickr</a></li>
+            </ul>
+		</div><!-- end #footer -->
+        </div><!-- end #frame-footer -->
+ 		<div class="clear"></div><!-- end clear float -->
+	</div><!-- end #container -->	
+</div><!-- end #wrapper -->	
+<script type="text/javascript"> Cufon.now(); </script> <!-- to fix cufon problems in IE browser -->
+	
+</body>
+</html>

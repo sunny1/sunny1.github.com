@@ -1,0 +1,174 @@
+/* 
+
+Display - CSS File
+
+USE THIS STYLE SHEET FOR INNER PAGE
+
+*/
+
+
+
+.pagenavi {clear:both; padding:20px 0;}
+.pagenavi a, .pagenavi a:visited{
+	padding:5px 10px;
+	margin:0 4px;
+}
+
+.pagenavi a:hover{
+	padding:5px 10px;
+	margin:0 4px;
+	text-decoration:none;
+}
+.pagenavi .current{
+	padding:5px 10px;
+	margin:0 4px;
+	}
+.pagenavi .pages{
+	padding:5px 10px;
+	margin:0 4px;
+}
+
+
+/* SERVICE */
+.services .one_third p{ overflow:hidden;}
+
+
+/* PORTFOLIO */
+#ts-display-pf-col{list-style-type:none; padding:0; margin:0; }
+#ts-display-pf-col li{width:169px;  float:left}
+#ts-display-pf-col li.nomargin{margin-right:0;}
+#ts-display-pf-col ul.pf-info-list{list-style-type:none; margin:0px 0px 15px 0px; padding:0px;}
+#ts-display-pf-col ul.pf-info-list li{list-style-type:none; margin:0px; padding:0px 0px 0px 0px; }
+#ts-display-pf-col .ts-display-pf-img{	width:169px; height:169px;}
+#ts-display-pf-col .ts-display-pf-img img.rounded{width:167px; height:167px; }
+
+#ts-display-pf-col .ts-display-pf-img a .rollover{
+	background:url(../images/hover-opacity.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:169px;
+	height:169px;
+	display:block;
+    position:absolute;
+	z-index:10;
+	display:none;
+}
+
+
+#filter{ float:left; width:123px;  margin-right:30px; line-height:22px; }
+#filter li{list-style-type:none;}
+
+.image-grid {  width: 766px; float:left;}
+
+.image-grid:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.image-grid li {
+  width: 169px;
+  margin: 0 30px 30px 0;
+  float: left;
+  height:169px;
+  overflow: hidden;
+}
+
+.image-grid li.nomargin{margin-right:0 !important;}
+
+
+/* BLOG */
+
+.posttitle a:hover{text-decoration:none}
+.post{margin-bottom:50px;  position:relative; padding-bottom:50px;}
+
+.post.single{margin-bottom:0px; padding-bottom:0px; border:0;}
+.entry-content{padding:0px; float:left; width:336px;}
+
+
+.entry-utility{font-size:11px; float:left; width:243px; margin-right:30px; font-style:italic; }
+.entry-utility2{ float:right; text-align:right;}
+.entry-utility2 span{ margin-bottom:10px; display:block;}
+.entry-utility2 .post-icons{ margin:0px; padding:0px; list-style-type:none;}
+.entry-utility2 .post-icons li{ display:inline;}
+.entry-utility2 .post-icons li:first-child{ background:url(../images/icons/comment.png) no-repeat left; padding-left:15px; margin-right:10px;}
+.entry-utility2 .post-icons li.like{ background:url(../images/icons/like.png) no-repeat left; padding-left:15px;}
+
+.entry-utility2 .post-social{ margin:10px 0px; padding:0px; list-style-type:none;}
+.entry-utility2 .post-social li{ display:inline; margin-right:5px;}
+.entry-utility2 .post-social li:last-child{ margin-right:0px;}
+
+
+
+#comment .pagenavi{
+	padding:0 0 40px 0;
+}
+.commentlist{
+	list-style-type:none;
+	padding:20px 0;
+	margin:0;
+}
+.commentlist ol{
+	list-style-type:none;
+	padding:30px 0 0 90px;
+	margin:0;
+}
+
+.commentlist li{
+	position:relative;
+	padding:0 0 30px 0;
+}
+.commentlist li li{
+	position:relative;
+	padding:0;
+}
+
+.avatar{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.tuser{font-size:14px; color:#303030;}
+.tdate{ font-size:10px; font-style:italic;}
+.comment-body{margin:0 0 0 90px; padding:0;}
+#commentform label{display:block}
+#commentform .text-input{
+	margin-bottom:8px;
+	padding:8px 5px;
+	vertical-align:middle;
+}
+#commentform .textarea{
+	margin-bottom:10px;
+	padding:8px 5px;
+	vertical-align:top;
+}
+#commentform .button{
+ }
+#commentform .button:hover{}
+
+/* CONTACT */
+form{margin:0; padding:0;}
+fieldset{border:0px;}
+#contactform{margin:0 auto; position:relative; }
+#contactform label{display:block}
+label.sp { width:3px;}
+span.error{color:red;text-align:left; font-size:11px;}
+#contactform input.text-input{
+	margin-bottom:8px;
+	vertical-align:middle;
+	width:50%;
+}
+#contactform textarea{ width:70%;} 
+#message{ margin-left:0px;}
+#message h2	{}
+#message p{margin:6px 0px; }
+
+#contactform .button{
+	cursor:pointer;
+	margin-top:15px;
+	padding:3px 15px;
+	line-height:20px;
+ }
+
