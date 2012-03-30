@@ -1,7 +1,6 @@
-
 body{
 	color:#000;
-	background: url(../img/bg-body.jpg) fixed;
+	background: url(../img/bg-body2.jpg) fixed;
 	font-family:Helvetica, Arial, Tahoma, Verdana;
 	font-size:12px;
 	margin:0 auto;
@@ -138,7 +137,7 @@ blockquote {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     clear: left;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 10px;

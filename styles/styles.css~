@@ -1,6 +1,6 @@
 body{
 	color:#000;
-	background: url(../img/bg-body2.jpg) fixed;
+	background: url(../img/bg-body.jpg) fixed;
 	font-family:Helvetica, Arial, Tahoma, Verdana;
 	font-size:12px;
 	margin:0 auto;
