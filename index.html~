@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+<div id="header">
+	<img src="img/header-pic1.jpg" alt="" />
+</div>
+<div id="content">
+	<p>Digital Cloud Group is a bridge between Hollywood and the Silicon Valley. The company was founded as an incubator with the ability to form partnerships as well as create, grow and launch creative and new technologies in Social Media, Content Delivery and Content Creation.</p>
+	<p>
+	Digital Cloud Group was founded by two entertainment industry veterans, Bryan Duran Esq. and Larry Rodriguez with a background in law, finance, technology, and filmmaking.</p>          
+</div><!-- end #content -->
+<div id="sidebar">
+	<h2>Latest News</h2>
+	{% assign first_post = site.posts.first %}
+	<div id="post">
+	 <h5>{{ first_post.title }}</h5>
+	  <div id="date">{{ first_post.date |  date: "%B %d, %Y"  }}</div>
+	  {{ first_post.content }}
+	</div>
+<!--	<hr />
+	
+	<ul id="pastnews">
+	{% for post in site.posts %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a><abbr>{{ post.date | date: "%m-%d-%Y" }}</abbr></li>
+	{% endfor %}
+	</ul>  -->          
+</div><!-- #sidebar -->
